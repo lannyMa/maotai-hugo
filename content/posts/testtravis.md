@@ -1,7 +1,12 @@
 ---
 title: "Testtravis"
-date: 2018-02-11T16:06:33+08:00
-draft: true
+subtitle: "这是毛台闲的蛋疼的时候,做的总结."
+description: "Testtravis,这是毛台闲的蛋疼的时候,做的总结."
+date: 2018-02-11T16:00:15+08:00
+tags: ["linux","svc"]
+categories: "Linux"
+bigimg: [{src: "https://ws1.sinaimg.cn/large/9e792b8fgy1foclramlwaj214v0aanm1.jpg", desc: "亦余心之所善兮"}]
+draft: false
 ---
 
 
