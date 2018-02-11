@@ -1,0 +1,88 @@
+baseurl = "https://lannyMa.github.io/"
+DefaultContentLanguage = "zh"
+hasCJKLanguage = true
+languageCode = "zh-cn"
+title = "毛台在线"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = false
+pygmentCodeFences = true
+#googleAnalytics = "https://www.googletagmanager.com/gtag/js?id=UA-113910293-1"
+
+[Params]
+hello = "Hi, 我是毛台."
+subtitle = "没时间了, 快上车."
+logo = "https://ws1.sinaimg.cn/large/9e792b8fgy1fobd1r0mnqj2069069jra.jpg"
+favicon = "https://raw.githubusercontent.com/lannyMa/scripts/master/favicon.ico"
+dateFormat = "January 2, 2006"
+commit = false
+rss = true
+#comments = true
+#sharebutton = true
+algolia = "9bad74fb14d312a77cdcbb0131ac813d" # API key
+#gcse = "012737790962522169780:fd1izxsfgrs" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+description = "lannyMa.github.io|毛台的博客|Cloud Native|Big Data"
+errorpage = "https://ws1.sinaimg.cn/large/9e792b8fgy1fobeadfomzj20eh0f678l.jpg"
+
+[[Params.bigimg]]
+src = "https://ws1.sinaimg.cn/large/9e792b8fgy1fobdskbdjsj20ro0iakjl.jpg"
+desc = "知否，知否？应是绿肥红瘦！"
+
+[[Params.bigimg]]
+src = "https://ws1.sinaimg.cn/large/9e792b8fgy1fobdojkp94j20im0cftsm.jpg"
+desc = "花舞花落泪，花哭花瓣飞。 花开为谁谢，花谢为谁悲。"
+
+[[Params.bigimg]]
+src = "https://ws1.sinaimg.cn/large/9e792b8fgy1fobdoiaoz1j20xc0m8u0x.jpg"
+desc = "物是人非事事休，欲语泪先流。"
+
+[[Params.bigimg]]
+src = "https://ws1.sinaimg.cn/large/9e792b8fgy1fobdojaho5j20qn0k9kjl.jpg"
+desc = "花开花落花无悔，缘来缘去缘如水。"
+
+[[Params.bigimg]]
+src = "https://ws1.sinaimg.cn/large/9e792b8fgy1fobdoit5a7j20ln0eq7rq.jpg"
+desc = "花自飘零水自流。 一种相思，两处闲愁。"
+
+[Author]
+  name = "Mao Tai"
+ # website = "https://lannyMa.github.io"
+  email = "ihorse@foxmail.com"
+  facebook = "maotai"
+ # googleplus = "+maotai" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "lannyMa"
+
+
+[[menu.main]]
+    identifier = "Py"
+    name = "Py"
+    weight = 1
+
+[[menu.main]]
+    parent = "Py"
+    name = "Django"
+    url = "categories/kubernetes"
+    weight = 1
+
+[[menu.main]]
+    parent = "Py"
+    name = "Flask"
+    url = "categories/kubernetes"
+    weight = 1
+
+
+[[menu.main]]
+    identifier = "Golang"
+    name = "Golang"
+    weight = 2
+
+[[menu.main]]
+    identifier = "Linux"
+    name = "Linux"
+    weight = 3
+
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 4
