@@ -1,6 +1,6 @@
 # [MaoTai](maotai.ml)'s blog source code
 
-[![Build Status](https://travis-ci.org/lannyMa/lannyMa-hugo.svg?branch=master)](https://travis-ci.org/lannyMa/lannyMa-hugo)
+[![Build Status](https://travis-ci.org/lannyMa/maotai-hugo.svg?branch=master)](https://travis-ci.org/lannyMa/maotai-hugo)
 
 Visit my blog at [https://lannyMa.github.io](https://lannyMa.github.io) ; this repo is source code
 
