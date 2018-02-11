@@ -1,4 +1,4 @@
-# Martin's blog source code
+# [MaoTai](maotai.ml)'s blog source code
 
 [![Build Status](https://travis-ci.org/lannyMa/lannyMa-hugo.svg?branch=master)](https://travis-ci.org/lannyMa/lannyMa-hugo)
 
